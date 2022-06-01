@@ -60,7 +60,7 @@ import p7img4 from '../../Assets/Projects/Xonix/img4.png';
 import p7img5 from '../../Assets/Projects/Xonix/img5.png';
 import p7img6 from '../../Assets/Projects/Xonix/img6.png';
 import p7img7 from '../../Assets/Projects/Xonix/img7.png';
-import p7video1 from '../../Assets/Projects/Xonix/video1.webm';
+import p7video1 from '../../Assets/Projects/Xonix/video1.mp4';
 
 
 import p8img1 from '../../Assets/Projects/Pacman/img1.png';
