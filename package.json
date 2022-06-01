@@ -1,0 +1,62 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "cross": "^1.0.0",
+    "jquery": "^3.6.0",
+    "react": "^16.14.0",
+    "react-aws-s3": "^1.5.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-gallery-carousel": "^0.2.9",
+    "react-github-calendar": "^2.0.2",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.2.7",
+    "react-image-lightbox": "^5.1.4",
+    "react-image-video-gallery": "^0.8.18",
+    "react-image-video-lightbox": "^3.0.0",
+    "react-parallax-tilt": "^1.4.68",
+    "react-particles-js": "^3.4.1",
+    "react-pdf": "^5.4.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-image-grid": "^1.1.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^2.1.3",
+    "react-typewriter-effect": "^1.1.0",
+    "typewriter-effect": "^2.17.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "proxy": "http://localhost:8080"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

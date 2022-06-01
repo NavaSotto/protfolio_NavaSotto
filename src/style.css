@@ -1,0 +1,119 @@
+/* //#4c1130 */
+/* #743054 */
+/* #b87a9b */
+
+html {
+  --section-background-color: linear-gradient(to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904));
+
+  --image-gradient: linear-gradient(to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863));
+  --color1: #4c1130;
+
+  --color2: #743054;
+
+  --color3: #a56889;
+
+  --color4: #fff;
+  --color5: rgb(12, 12, 12);
+  --color6: #898686;
+
+
+
+}
+
+body {
+  background-image: var(--image-gradient), url('https://img.freepik.com/free-vector/abstract-background-small-triangles-purple-colors_444390-4887.jpg?w=1380');
+  background-image: var(--image-gradient), url('https://img.freepik.com/free-vector/abstract-background-small-triangles-purple-colors_444390-4887.jpg?w=1380');
+  background-image: var(--image-gradient), url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?t=st=1653909912~exp=1653910512~hmac=617c3644131a0cfcfb6e0c53bcb828fd5c7bc934da0bcbd158c023922e74ce91&w=1060');
+  background-image: var(--image-gradient), url('  https://img.freepik.com/free-vector/abstract-futuristic-purple-background-with-shiny-lines_23-2148392375.jpg?w=1060');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.largeText {
+  font-size: 20px;
+  -webkit-text-stroke: 1px #a56889;
+
+
+}
+
+
+
+.title1 {
+  color: var(--color1);
+}
+
+.title2 {
+  color: var(--color2);
+}
+
+.title3 {
+  color: var(--color3);
+  font-family: Trebuchet MS, sans-serif !important;
+}
+
+.title4 {
+  color: var(--color4);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4c1130;
+  border: 2px solid #fff !important;
+  left: 20px;
+
+}
+
+.btn-primary:hover {
+  color: #4c1130 !important;
+  background-color: #fff !important;
+  border: 2px solid #4c1130;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.fork-btn {
+  font-size: 1.1em !important;
+  padding-top: 10px !important;
+}
+
+.fork-btn-inner {
+  line-height: 1.4em !important;
+  background-color: #4c1130 !important;
+  padding: 0.25rem 1.1rem !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.fork-btn-inner:hover {
+  transform: translateY(-2px) !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.fork-btn-inner::after {
+  display: none !important;
+}
+
+.whiteP {
+  color: #fff;
+  font-size: 20px;
+}
