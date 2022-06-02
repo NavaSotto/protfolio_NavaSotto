@@ -25,11 +25,7 @@ html {
 }
 
 body {
-  background-image: var(--image-gradient), url('https://img.freepik.com/free-vector/abstract-background-small-triangles-purple-colors_444390-4887.jpg?w=1380');
-  background-image: var(--image-gradient), url('https://img.freepik.com/free-vector/abstract-background-small-triangles-purple-colors_444390-4887.jpg?w=1380');
-  background-image: var(--image-gradient), url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?t=st=1653909912~exp=1653910512~hmac=617c3644131a0cfcfb6e0c53bcb828fd5c7bc934da0bcbd158c023922e74ce91&w=1060');
-  background-image: var(--image-gradient), url('  https://img.freepik.com/free-vector/abstract-futuristic-purple-background-with-shiny-lines_23-2148392375.jpg?w=1060');
-
+ 
   /* Full height */
   height: 100%;
 

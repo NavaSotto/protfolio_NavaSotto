@@ -117,9 +117,9 @@ function GalleryProject() {
       <Particle />
 
       <h1 className='projectTitle'>{namesOfProjects[currentProject].name}</h1>
-      <p className='projectDescriptionText'>  {namesOfProjects[currentProject].description}    </p>
-      <span className='title4'><b>Technologies : </b></span><span className='projectDescriptionText'>{namesOfProjects[currentProject].technologies} </span>
-
+      <p className='projectDescriptionText'>  {namesOfProjects[currentProject].description}   
+      <div className='title4'><b>Technologies : </b><span className='projectDescriptionText'>{namesOfProjects[currentProject].technologies} </span></div>
+      </p>
 
 
       <div className="slider " >

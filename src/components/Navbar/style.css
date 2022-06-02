@@ -6,6 +6,7 @@
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
+
 }
 
 .navbar {
@@ -15,7 +16,14 @@
   font-size: 1.2rem !important;
 
 
+}
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto !important;
+  z-index: 1030;
 }
 
 
@@ -90,6 +98,13 @@
   height: 2em !important;
   /* width: 2.5em !important; */
   border: 1px solid white;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s !important;
+  vertical-align: middle;
+  margin: 15px;
 }
 
 
@@ -138,6 +153,8 @@
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
+
+.container {}
 
 
 /* //#4c1130 */

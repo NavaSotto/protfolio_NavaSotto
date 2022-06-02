@@ -10,8 +10,14 @@
   line-height: 30px;
   width: 1300px;
   margin: 0 auto;
-  max-width:750px;
+  max-width: 750px;
+  text-align: center;
 
+}
+
+
+p br:after {
+  content: '.';
 }
 
 .projectTitle {
@@ -82,7 +88,7 @@
   grid-gap: 5px 5px !important;
   justify-content: space-around;
   align-content: space-evenly;
-  max-width:70vw;
+  max-width: 70vw;
 
 
 

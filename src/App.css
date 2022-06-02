@@ -6,7 +6,7 @@ html {
 
 .App {
   text-align: center;
-  background-image: var(--image-gradient), url();
+  background-image: var(--image-gradient);
 
   /* Full height */
   height: 100%;
