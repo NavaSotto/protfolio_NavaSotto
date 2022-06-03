@@ -117,8 +117,8 @@ function GalleryProject() {
       <Particle />
 
       <h1 className='projectTitle'>{namesOfProjects[currentProject].name}</h1>
-      <p className='projectDescriptionText'>  {namesOfProjects[currentProject].description}   
-      <div className='title4'><b>Technologies : </b><span className='projectDescriptionText'>{namesOfProjects[currentProject].technologies} </span></div>
+      <p className='projectDescriptionText'>  {namesOfProjects[currentProject].description}  <br></br>
+        <b>Technologies : </b><span >{namesOfProjects[currentProject].technologies} </span>
       </p>
 
 
@@ -134,11 +134,11 @@ function GalleryProject() {
         <BiChevronRight className={`prevNextIcon ${endVisible ? 'visibleClass' : 'hideClass'}`} onClick={nextSlide} />
       </div>
 
-      <div className='gridClass'>
+      <div className='flexGallery'>
         {currentGalleryData.map((elem, index) => (
           getMediaType(elem) == 'image' ?
-            <img src={elem} className={`gridImgVideo ${index == currentImgIndex ? 'activeImg' : ''}`} key={index} onClick={() => setCurrentImgIndex(index)} alt={getFileName(elem)} /> :
-            <video controls autoPlay={false} loop={false} muted={true} key={index} alt={getFileName(elem)} className={`gridImgVideo ${index == currentImgIndex ? 'activeImg' : ''}`} onClick={() => setCurrentImgIndex(index)} src={elem + "#t=4"}  >
+            <img src={elem} className={`imgGallery ${index == currentImgIndex ? 'activeImg' : ''}`} key={index} onClick={() => setCurrentImgIndex(index)} alt={getFileName(elem)} /> :
+            <video controls autoPlay={false} loop={false} muted={true} key={index} alt={getFileName(elem)} className={`imgGallery ${index == currentImgIndex ? 'activeImg' : ''}`} onClick={() => setCurrentImgIndex(index)} src={elem + "#t=4"}  >
               <source type="video/mp4" alt={getFileName(elem)} />
             </video>
         ))}

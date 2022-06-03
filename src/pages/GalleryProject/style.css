@@ -1,17 +1,24 @@
-.galleryClass {}
 
 .projectDescriptionText {
   z-index: 2;
   background-color: transparent;
   color: white;
-  margin-left: 20px;
-  margin-right: 20px;
+
   word-break: normal;
-  line-height: 30px;
-  width: 1300px;
+  /* line-height: 30px; */
+  width: 100%;
   margin: 0 auto;
   max-width: 750px;
   text-align: center;
+  display: inline-block;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+
+
+
 
 }
 
@@ -30,28 +37,28 @@ p br:after {
 
 /********************************/
 .slider {
-  /* width: 80vw;
-  height: 80vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   margin: 0 auto;
   padding-top: 20px;
-  flex: 3;
-
+  padding-bottom: 10px;
 
 }
 
 .sliderMedia {
-  height: 300px !important;
-  width: calc(100vw - 80px - 800px) !important;
-  height: calc((100vw - 80px - 350px)/3) !important;
+ 
   margin: 0 auto;
-  max-width: 800px !important;
-  max-height: 500px !important;
+  
   margin-bottom: 20px;
-
+  background-size: contain !important;
+  block-size: auto;
+  object-fit: cover;
+  max-width: 45%;
+  display: block;
+  transition: all 2s ease-in-out;
+  box-shadow: 0px 0px 5px 1px #e9e4e7  ;
 
 
 }
@@ -76,41 +83,33 @@ p br:after {
 /********************************/
 
 
-.gridClass {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
-  background-color: transparent;
-  justify-items: center;
-  align-items: center;
-  padding: 0px;
+.flexGallery {
+  /* max-width:  50%; */
   margin: 0 auto;
-  grid-gap: 5px 5px !important;
-  justify-content: space-around;
-  align-content: space-evenly;
-  max-width: 70vw;
-
-
-
-
+  display: flex;
+  /* grid-auto-flow: column; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 5px !important;
+  row-gap: 3px;
 
 }
 
-.gridImgVideo {
-  width: calc((100vw - 80px - 140px)/5) !important;
-  height: calc((100vw - 80px - 140px)/5/2) !important;
-  border: 2px solid var(--color2);
-  justify-content: space-between;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
+.imgGallery {
+  color: white;
+  /* height: auto; */
+  text-align: center;
+  width: 220px;
+  height: 130px;
+  border: 1px solid white;
+  padding: 7px;
+  margin: 5px;
 
-
-
-
-
-
-  padding: 0;
+  /* padding: 0; */
 }
 
 .visibleClass {
@@ -123,5 +122,39 @@ p br:after {
 
 .activeImg {
   border: 3px solid #bea000;
+
+}
+
+@media (max-width: 767px) {
+  .sliderMedia {
+    /* max-width: 350px;
+    height: auto; */
+    text-align: center;
+  }
+
+  .projectDescriptionText {
+    font-size: 16px;
+  }
+
+  .imgGallery {
+
+    width: 170px;
+    height: 80px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .sliderMedia {
+    /* min-width: 400px;
+    height: auto; */
+    text-align: center;
+  }
+
+  .projectDescriptionText {
+    font-size: 18px;
+  }
+
+
 
 }

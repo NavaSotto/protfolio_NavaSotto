@@ -30,7 +30,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px", paddingLeft: "90px" }}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <FaRegAddressCard className="aboutImg" size={250} font-weight="2" font-size="14px"

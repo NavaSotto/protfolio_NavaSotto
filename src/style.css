@@ -19,6 +19,7 @@ html {
   --color4: #fff;
   --color5: rgb(12, 12, 12);
   --color6: #898686;
+  background-color: black;
 
 
 
@@ -33,6 +34,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
+
+
 
 }
 
